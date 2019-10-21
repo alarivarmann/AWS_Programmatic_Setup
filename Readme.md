@@ -32,8 +32,10 @@ aws_start
 
 ## 5. Edit Makefile & Run the Installation and Test Scripts:
 Edit Makefile to account for any changes in the paths
+
 make all
 
 # Known Issues
 ## Pip Client 404 Error
-In this case, update PIP via curl https://bootstrap.pypa.io/get-pip.py | python3 and then proceed.
+In this case, update PIP via curl https://bootstrap.pypa.io/get-pip.py | python3 
+*before running any make commands*,
