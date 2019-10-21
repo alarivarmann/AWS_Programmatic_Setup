@@ -38,4 +38,4 @@ make all
 # Known Issues
 ## Pip Client 404 Error
 In this case, update PIP via curl https://bootstrap.pypa.io/get-pip.py | python3 
-*before running any make commands*,
+**before running any make commands**
