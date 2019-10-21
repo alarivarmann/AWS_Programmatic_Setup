@@ -29,6 +29,7 @@ source ~/.profile
 ## 4. Activate the virtualenv 
 aws_start
 
-## 5. Run the Installation and Test Scripts:
+## 5. Edit Makefile & Run the Installation and Test Scripts:
+Edit Makefile to account for any changes in the paths
 make all
 
