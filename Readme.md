@@ -10,8 +10,7 @@ cd your_env_name_here
 ## 2. Populate the /bin/activate script:
 AWS_PROFILE="your_aws_profile_here"
 export AWS_PROFILE
-PYTHONPATH="~/dev/start_aws/aws_base_setup/your_env_name_here"
-export PYTHONPATH
+
 
 AND make the project to be a Python Package:
 touch __init__.py
