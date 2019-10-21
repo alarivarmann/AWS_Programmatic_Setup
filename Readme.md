@@ -1,3 +1,4 @@
+# Setup Instructions
 ## 1. Create new virtualenv :
 python3 -m venv myenv 
 
@@ -33,3 +34,6 @@ aws_start
 Edit Makefile to account for any changes in the paths
 make all
 
+# Known Issues
+## Pip Client 404 Error
+In this case, update PIP via curl https://bootstrap.pypa.io/get-pip.py | python3 and then proceed.
